@@ -1,0 +1,29 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+input:required:invalid {
+  border-color: #c00000;
+  background-color: rgba(243, 157, 157, 0.89);
+}
+textarea:required:invalid {
+  border-color: #c00000;
+  background-color: rgba(243, 157, 157, 0.89);
+}
+select:required:invalid {
+  border-color: #c00000;
+  background-color: rgba(243, 157, 157, 0.89);
+}
+#alerta {
+  display: none;
+}
+.form-control.is-invalid {
+  border-color: #c00000;
+  background-color: rgba(243, 157, 157, 0.89);
+}
+
+.is-invalid {
+  border-color: #c00000;
+  background-color: rgba(243, 157, 157, 0.89);
+}
+
+/* input:required:valid {
+  border-color: #00c03a;
+} */
